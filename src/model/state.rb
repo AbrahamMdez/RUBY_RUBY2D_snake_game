@@ -30,7 +30,7 @@ module Model
                 Model::Coord.new( 0, 1)
             ]),
             Model::Grid.new( 8, 12),
-            Direction::DOWN,
+            Model::Direction::DOWN,
             false
         )
     end
