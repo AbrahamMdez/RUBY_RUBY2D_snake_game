@@ -13,7 +13,7 @@ module Actions
     private
     
     def self.calc_next_position(state)
-        curr_position = state.snake.positions.first
+        new_position = state.snake.positions.first
         case state.next_direction
         when Model::Direction::UP 
             return Model::Coord.new(

@@ -1,8 +1,7 @@
-require 'minitest/autorun'
 require_relative '../src/actions/actions'
 require_relative '../src/model/state'
 
-class ActionsTest < Minitest::Test 
+class ActionsTest 
     def test_move_snake
         initial_state = Model::State.new(
                             Model::Food.new( 4, 4),
